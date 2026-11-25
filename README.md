@@ -19,7 +19,15 @@ npm test
 npm pack
 ```
 
-Until a package is published, load the local entrypoint from the Kilo configuration for your chosen scope:
+The npm package is `@cenmax/kilo-oauth`. Once version 0.1.1 is available on npm, add it to the Kilo configuration for your chosen scope:
+
+```json
+{
+  "plugin": ["@cenmax/kilo-oauth@0.1.1"]
+}
+```
+
+For a reviewed source checkout or extracted release package, load the local entrypoint instead:
 
 ```json
 {

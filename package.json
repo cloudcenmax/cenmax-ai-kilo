@@ -1,6 +1,6 @@
 {
-  "name": "@cenmax-ai/kilo-oauth",
-  "version": "0.1.0",
+  "name": "@cenmax/kilo-oauth",
+  "version": "0.1.1",
   "description": "Cenmax AI subscription OAuth plugin for Kilo Code",
   "type": "module",
   "license": "MIT",

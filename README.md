@@ -19,7 +19,7 @@ npm test
 npm pack
 ```
 
-The npm package is `@cenmax/kilo-oauth`. Once version 0.1.1 is available on npm, add it to the Kilo configuration for your chosen scope:
+Add the published [`@cenmax/kilo-oauth@0.1.1`](https://www.npmjs.com/package/@cenmax/kilo-oauth/v/0.1.1) package to the Kilo configuration for your chosen scope:
 
 ```json
 {
@@ -79,7 +79,7 @@ npm pack --dry-run
 
 Tests use synthetic Cenmax AI identities and simulated service responses. They cover the published plugin shape, device polling, origin and endpoint guards, token rotation/concurrency, uncertain refresh handling, credential permissions/symlinks, catalogue replacement, tool-call streams, and redacted errors. They do not install Kilo. The separate qualification record describes real installed-harness tests against the public Cenmax AI service.
 
-Publish only files selected by `package.json` for runtime artifacts. A source repository may also include `test/` and `.gitignore`. Exclude local credentials, caches, dependencies, environment files, and logs. This package is MIT-licensed and has not been published to npm.
+Publish only files selected by `package.json` for runtime artifacts. A source repository may also include `test/` and `.gitignore`. Exclude local credentials, caches, dependencies, environment files, and logs. This package is MIT-licensed and published on npm as `@cenmax/kilo-oauth`.
 
 For discovery preparation and the unsubmitted Marketplace draft, see [launch preparation](./launch/README.md).
 

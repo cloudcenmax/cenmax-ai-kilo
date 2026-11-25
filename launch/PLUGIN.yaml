@@ -1,0 +1,8 @@
+# Draft: pin content to the reviewed public commit before submitting.
+id: git/github.com/cloudcenmax/cenmax-ai-kilo
+name: Cenmax AI
+description: Connect Kilo to your Cenmax AI subscription with device OAuth and discover the public models available to your account.
+category: providers
+author: Cenmax AI
+url: https://github.com/cloudcenmax/cenmax-ai-kilo
+content: git:github.com/cloudcenmax/cenmax-ai-kilo
